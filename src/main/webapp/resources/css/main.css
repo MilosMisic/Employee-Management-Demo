@@ -1,0 +1,259 @@
+body {
+	background-image: url("../images/slika.jpg");
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+}
+
+#wrapper {
+	margin-right: auto;
+	width: 1500px;
+	position: absolute;
+	left: 370px;
+	height: 100px;
+	margin-top: 40px;
+}
+
+#novi {
+	width: 1000px;
+	height: 30px;
+	background-color: #F5F5F5;
+	border: solid black 1px;
+	float: left;
+	margin-top: 18px;
+}
+
+td, th {
+	font-family: Montserrat; //
+	background-color: #FFFF99;
+	width: 100px;
+	border-right: solid black 2px;
+	margin: 0;
+	//padding-top: 5px;
+	padding-left: 5px;
+	text-align: center;
+}
+
+#removeEntry {
+	border-radius: 12px;
+	cursor: pointer;
+	font-family: Montserrat;
+	background-color: #f2f2f2;
+	font-size: 14px;
+}
+#editEntry {
+	border-radius: 12px;
+	cursor: pointer;
+	font-family: Montserrat;
+	background-color: #f2f2f2;
+	font-size: 14px;
+}
+
+#cancelEdit {
+		background-color: #C0C0C0;
+	color: black;
+	border: 2px solid #555555;
+	width: 100px;
+	height: 40px;
+	font-size: 24px;
+	text-align: center;
+	border-radius: 25px;
+	cursor: pointer;
+	position: relative;
+	top: 36px;
+	left: 150px;
+	cursor: pointer;
+}
+
+#inputData {
+	position: absolute;
+	top: 50px;
+	left: 1550px;
+	background-color: #FFE5CC;
+}
+
+#addButton {
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+	width: 120px;
+	height: 40px;
+	font-size: 24px;
+	text-align: center;
+	border-radius: 25px;
+	cursor: pointer;
+	position: relative;
+	top: 95px;
+	left: 85px;
+	cursor: pointer;
+}
+
+#addButton:hover {
+	background-color: black;
+	color: white;
+}
+
+#saveButton {
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+	width: 100px;
+	height: 40px;
+	font-size: 24px;
+	text-align: center;
+	border-radius: 25px;
+	cursor: pointer;
+	position: relative;
+	top: 95px;
+	left: 40px;
+	cursor: pointer;
+}
+
+#saveButton:hover, #cancelEdit:hover {
+	background-color: black;
+	color: white;
+}
+#editForm{
+	
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 1500px;
+	top: 200px;
+}
+#emId{
+	type="hidden";
+}
+#addCompany {
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+	width: 120px;
+	height: 40px;
+	font-size: 24px;
+	text-align: center;
+	border-radius: 25px;
+	cursor: pointer;
+	position: relative;
+	top: 290px;
+	left: 85px;
+	cursor: pointer;
+}
+
+#addCompany:hover {
+	background-color: black;
+	color: white;
+}
+
+#inputDataWrapper {
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	background-color: #232835;
+	left: 50px;
+	top: 0;
+}
+
+input {
+	width: 260px;
+	height: 30px;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+select {
+	width: 265px;
+	height: 36px;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#firstName {
+	position: relative;
+	left: 20px;
+	right: 20px;
+	top: 20px;
+}
+
+#lastName {
+	position: relative;
+	left: 20px;
+	right: 20px;
+	top: 40px;
+}
+
+#salary {
+	position: relative;
+	left: 20px;
+	right: 20px;
+	top: 60px;
+}
+
+#company {
+	position: relative;
+	left: 20px;
+	right: 20px;
+	top: 80px;
+}
+
+#companyName {
+	position: relative;
+	left: 20px;
+	right: 20px;
+	top: 250px;
+}
+
+#companyCountry {
+	position: relative;
+	left: 20px;
+	right: 20px;
+	top: 270px;
+}
+
+#showEmployee {
+	position: relative;
+	left: 85px;
+	top: 320px;
+	color: white;
+}
+
+#showEmployee:hover, #showCompany:hover {
+	background-color: white;
+	color: black;
+	border-radius: 15px;
+}
+
+#showCompany {
+	position: absolute;
+	left: 85px;
+	top: 340px;
+	color: white;
+}
+
+#companyDiv {
+	margin-top: 100px;
+}
+
+a {
+	font-family: Montserrat;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
